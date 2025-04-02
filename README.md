@@ -3,126 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>P.Aravind - Portfolio</title>
+    <title>P Aravind - Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #ffeb3b;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
         }
-        header {
-            background-color: #8BC34A;
-            color: white;
+        .header {
+            background-color: #cddc39;
             text-align: center;
             padding: 20px;
             font-size: 24px;
-            font-weight: bold;
         }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #d32f2f;
+        .nav {
+            background-color: #d32f2f;
             padding: 10px;
+            text-align: center;
         }
-        nav a {
+        .nav a {
             color: white;
+            margin: 10px;
             text-decoration: none;
-            padding: 10px 20px;
-        }
-        nav a:hover {
-            background: #b71c1c;
+            font-size: 18px;
         }
         .container {
             width: 80%;
-            margin: auto;
-            padding: 20px;
-            background: white;
+            margin: 20px auto;
         }
-        h2 {
-            color: #d32f2f;
+        .section {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border: 3px solid #d32f2f;
         }
-        ul {
-            list-style-type: none;
-        }
-        .btn {
-            display: inline-block;
-            background: black;
+        .footer {
+            background-color: #000;
             color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            margin-top: 10px;
-        }
-        .btn:hover {
-            background: grey;
-        }
-        footer {
             text-align: center;
             padding: 10px;
-            background: #333;
+        }
+        .resume-btn {
+            display: block;
+            width: 150px;
+            margin: 10px auto;
+            padding: 10px;
+            text-align: center;
+            background-color: black;
             color: white;
-            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
-
-<header>
-    P.Aravind<br>
-    <small>Electronics Engineer & Cyber Security Enthusiast</small>
-</header>
-
-<nav>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#resume">Resume</a>
-</nav>
-
-<div class="container">
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm a <strong>cyber security</strong> expert and technology enthusiast passionate about helping organizations protect their data and create secure online environments. With over 7 years of experience in the field, I stay updated with the latest trends in cyber security.</p>
-    </section>
-
-    <section id="education">
-        <h2>Education</h2>
-        <p><strong>Anna University</strong> - Electrical & Electronics Engineering</p>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>CyberSecurity</li>
-            <li>Internet of Things</li>
-            <li>Cloud Computing</li>
-            <li>Python</li>
-            <li>IBM Cloud</li>
-            <li>Machine Learning & AI</li>
-            <li>Java, C++, JavaScript</li>
-            <li>Blockchain</li>
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="#">AI-Based Alternator Control System</a></li>
-            <li><a href="#">Cloud Security - IBM</a></li>
-            <li><a href="#">IBM Chatbot</a></li>
-        </ul>
-    </section>
-
-    <section id="resume">
-        <h2>Resume</h2>
-        <a href="your_resume.pdf" download class="btn">Download CV</a>
-    </section>
-</div>
-
-<footer>
-    &copy; 2023 p.Aravind
-</footer>
-
+    <div class="header">
+        <h1>P.Aravind </h1></h1>
+        <p>Student </p>
+    </div>
+    <div class="nav">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+    </div>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a cybersecurity expert and i am interested in agro business and agriculture related work .</p>
+        </div>
+        <div id="education" class="section">
+            <h2>Education</h2>
+            <p>BSc Computer Science - University of Madras</p>
+        </div>
+        <div id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Cybersecurity</li>
+                <li>Network Security</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Cloud Computing</li>
+                <li>Blockchain</li>
+                <li>Leadership & Coordination</li>
+            </ul>
+        </div>
+        <div id="projects" class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">AI-Based Security Analysis</a></li>
+                <li><a href="#">Cloud Security Implementation</a></li>
+                <li><a href="#">Cyber Threat Detection</a></li>
+            </ul>
+        </div>
+        <div id="resume" class="section">
+            <h2>Resume</h2>
+            <a class="resume-btn" href="#">Download CV</a>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 P.Aravind</p>
+    </div>
 </body>
 </html>
