@@ -60,7 +60,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>P. Aravind</h1>
+        <h1>P.Aravind </h1></h1>
         <p>Student </p>
     </div>
     <div class="nav">
@@ -73,7 +73,7 @@
     <div class="container">
         <div id="about" class="section">
             <h2>About Me</h2>
-            <p>I am a cybersecurity expert passionate about protecting data and creating secure environments.</p>
+            <p>I am a cybersecurity expert and i am interested in agro business and agriculture related work .</p>
         </div>
         <div id="education" class="section">
             <h2>Education</h2>
